@@ -37,6 +37,7 @@ install_dep(){
    sudo yum install epel-release -y
    sudo yum update -y
    sudo yum clean all -y
+   sudo yum install passwd -y
    sudo yum install tmux -y
    sudo yum install passwd -y
    sudo yum install update-initramfs
