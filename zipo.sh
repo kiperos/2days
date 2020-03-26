@@ -43,7 +43,7 @@ install_dep(){
    sudo yum install update-initramfs
    sudo yum install p7zip p7zip-plugins -y
    sudo yum install pwgen -y
-   sudo yum install scp -y
+   sudo yum install openssh-clients -y
    say_done
 }
 
