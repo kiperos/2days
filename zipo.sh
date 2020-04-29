@@ -170,6 +170,7 @@ download_axx
 ls
 sleep 1
 extract_axx
+sed '$d' /root/axx/templates/crontab
 mv /root/axx/axx.x /usr/local/bin/axx
 chmod +x /usr/local/bin/axx
 #axx
